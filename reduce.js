@@ -18,6 +18,6 @@ const reduce = (nums, fn, init) => {
 //         accum = cal(accum, nums[i], i);
 //     }
 //     return accum;
-// }
+// } 
 const result = reduce([1, 2, 3], (acc, num) => acc + num, 0);
 console.log(result); // Output: 6
